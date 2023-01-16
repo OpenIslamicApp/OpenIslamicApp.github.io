@@ -73,6 +73,10 @@ const Container = styled.section`
       border: 1px solid var(--cream);
       font-size: calc(8px + 2vmin);
       max-width: 700px;
+      & > a {
+        text-decoration: none;
+        color: var(--deep);
+      }
       &:nth-child(1),
       &:nth-child(2) {
         font-weight: 800;
