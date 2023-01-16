@@ -5,9 +5,11 @@ export default function Hero() {
   return (
     <Container>
       <div className="hero">
-        Welcome to
-        <br />
-        OpenIslamicApp
+        <h1>
+          Welcome to
+          <br />
+          OpenIslamicApp
+        </h1>
       </div>
     </Container>
   );
