@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import About from "./Components/About";
+import GiveUsAnIdea from "./Components/GiveUsAnIdea";
 import Hero from "./Components/Hero";
 import Meaning from "./Components/Meaning";
 import PrayerTime from "./Components/PrayerTime";
-import Under from "./Components/Under";
 import Footer from "./Layout/Footer";
 import Header from "./Layout/Header";
 
@@ -19,7 +19,7 @@ export default function App() {
         Apps We Have Created
       </h1>
       <PrayerTime />
-      {/* <Under /> */}
+      <GiveUsAnIdea />
       <Footer />
     </Container>
   );
