@@ -3,6 +3,7 @@ import styled from "styled-components";
 import About from "./Components/About";
 import Hero from "./Components/Hero";
 import Meaning from "./Components/Meaning";
+import PrayerTime from "./Components/PrayerTime";
 import Under from "./Components/Under";
 import Footer from "./Layout/Footer";
 import Header from "./Layout/Header";
@@ -14,6 +15,10 @@ export default function App() {
       <Hero />
       <About />
       <Meaning />
+      <h1 style={{ padding: "48px 24px", textAlign: "center" }}>
+        Apps We Have Created
+      </h1>
+      <PrayerTime />
       {/* <Under /> */}
       <Footer />
     </Container>
