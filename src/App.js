@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Under from "./Components/Under";
+import Footer from "./Layout/Footer";
 import Header from "./Layout/Header";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
     <Container>
       <Header />
       <Under />
+      <Footer />
     </Container>
   );
 }
