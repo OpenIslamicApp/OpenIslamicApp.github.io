@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import About from "./Components/About";
 import Hero from "./Components/Hero";
 import Meaning from "./Components/Meaning";
 import Under from "./Components/Under";
@@ -11,8 +12,9 @@ export default function App() {
     <Container>
       <Header />
       <Hero />
+      <About />
       <Meaning />
-      <Under />
+      {/* <Under /> */}
       <Footer />
     </Container>
   );
