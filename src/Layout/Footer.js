@@ -26,6 +26,7 @@ const Container = styled.footer`
   justify-content: center;
   text-align: center;
   padding: 24px 48px;
+  margin-top: 24px;
   & > p.cpy {
     text-transform: uppercase;
     font-weight: 700;
