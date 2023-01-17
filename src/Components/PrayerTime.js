@@ -10,6 +10,11 @@ export default function PrayerTime() {
           Prayer Time App is created to show all the prayer times in Dhaka area
           (now supports all the months).
         </p>
+        <p>
+          Currently experimenting with by adding some Duas to App itself with
+          built in Tasbih Counter. And trying to implement other areas prayer
+          time through public API with time highlighting functionality.
+        </p>
       </div>
       <div className="img">
         <div className="img-con">
@@ -30,7 +35,7 @@ const Container = styled.section`
     grid-template-columns: 1fr;
   }
   & > .text {
-    padding: 48px;
+    padding: 48px 24px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -40,6 +45,8 @@ const Container = styled.section`
     }
     & > p {
       font-size: calc(10px + 2vmin);
+      max-width: 500px;
+      line-height: 120%;
     }
   }
   & > .img {
