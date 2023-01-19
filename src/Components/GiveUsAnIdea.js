@@ -33,6 +33,16 @@ export default function GiveUsAnIdea() {
             Submit Here
           </a>
         </div>
+        <div className="suggestion-table_col">Dua Idea Submission</div>
+        <div className="suggestion-table_col">
+          <a
+            href="https://github.com/OpenIslamicApp/dua/issues"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Submit Here
+          </a>
+        </div>
         <div className="suggestion-table_col">New Idea Submission</div>
         <div className="suggestion-table_col">
           <a
