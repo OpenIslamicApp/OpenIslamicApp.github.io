@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import About from "./Components/About";
+import DUA from "./Components/DUA";
 import GiveUsAnIdea from "./Components/GiveUsAnIdea";
 import Hero from "./Components/Hero";
 import Meaning from "./Components/Meaning";
@@ -19,6 +20,7 @@ export default function App() {
         Apps We Have Created
       </h1>
       <PrayerTime />
+      <DUA />
       <GiveUsAnIdea />
       <Footer />
     </Container>
